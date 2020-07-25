@@ -73,12 +73,4 @@ h1{
 	font-family: "Times New Roman",Times, sans-serif;
 
 }
-@media only screen  and (max-width:640px){
-	.container{
-        display: block;
-        width:100%;
-        margin:auto;
-        
-
-	}
-	}
+}
