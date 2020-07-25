@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css"
+	       href="design.css"/>
+	<title>contact form</title>
+</head>
+<body>
+<div class="contact">	
+<h1><b>CONTACT US </b></h1>
+<hr>
+<h4><b>Send us your message.We'll respond you as soon as possible.</b></h4><br/>
+	<form id="contactf">
+	<table cellpadding="5px">
+		<tr>
+	    <td><b>NAME:*</b></td>
+       	<td ><input type="text" id="name" placeholder="full name" required></td>
+        </tr>
+        <tr>
+       	<td><b>GENDER:*</b></td>
+       	<td></td>
+	    </tr>
+	    <tr>
+	    <td><input name="gen" type="radio" id="gender" value="male">male</td>
+	    <td ><input name="gen" type="radio" id="gender" value="female">female</td>
+	    </tr>
+	    <tr>
+	    <td><b>PHONE NUMBER:</b></td>
+  	    <td><input type="number" id="phonenumber" placeholder="phone no. "></td>
+	    </tr>
+	    <tr>
+	    <td><b>EMAIL ID:*</b></td>
+	    <td><input type="email" id="email" placeholder="email" required></td>
+        </tr>
+        <tr>
+        <td><b>MESSAGE:*</b></td>
+        <td><textarea id="message" placeholder="message" rows="6" columns="10" required></textarea></td>
+        </tr>
+        <tr>
+        <td colspan="2"><input type="submit" id="submit" value="SUBMIT" <br/></td>
+        </tr>
+    </table>    
+</form>
+</div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+<script>
+
+// Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC_P0XDIdfUROMKlngUzyqYgTLnU3VN-8E",
+    authDomain: "contactform-862e6.firebaseapp.com",
+    databaseURL: "https://contactform-862e6.firebaseio.com",
+    projectId: "contactform-862e6",
+    storageBucket: "contactform-862e6.appspot.com",
+    messagingSenderId: "1028024715140",
+    appId: "1:1028024715140:web:2901bb3a0b26902605ffd1",
+    measurementId: "G-GH6FRNC690"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="data.js"></script>
+
+</body>
+</html>
