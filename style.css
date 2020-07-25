@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+}
+
+#submit{
+    border-radius: 5px;
+    background-color: black; 
+    color: skyblue;
+}
+
+#name{
+     border-radius: 5px;
+    
+}
+#phonenumber{
+     border-radius: 5px;
+ 
+}
+#email{
+    border-radius: 5px;
+   
+}
+#message{
+	border-radius: 5px;
+}
+
+td{
+    padding: 15px;
+    vertical-align: middle;
+}
+
+hr{
+	border-top: 3px solid skyblue;
+	border-radius: 5px;
+}
+h4{
+	color: skyblue;
+}
+
+body{
+	background:url("bg img.jpg");
+	font-size: 12px;
+}
+body,input{
+	
+}
+.background{
+	display: flex;
+	min-height: 100%;
+}
+.container{
+	margin: auto;
+	background-color: #3e3e3e;
+	border-radius: 15px;
+	padding-top:30px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+    background-size: 100%;
+
+}
+.content{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size:20px;
+	font-family: "Times New Roman",Times, sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.4;
+	color: skyblue;
+}
+h1{
+	font-size:40px;
+	color: skyblue; 
+	font-family: "Times New Roman",Times, sans-serif;
+
+}
