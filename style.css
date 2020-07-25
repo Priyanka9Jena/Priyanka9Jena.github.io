@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+}
+
+#submit{
+    border-radius: 5px;
+    background-color: black; 
+    color: skyblue;
+}
+
+#name{
+     border-radius: 5px;
+    
+}
+#phonenumber{
+     border-radius: 5px;
+ 
+}
+#email{
+    border-radius: 5px;
+   
+}
+#message{
+	border-radius: 5px;
+}
+
+td{
+    padding: 15px;
+    vertical-align: middle;
+}
+
+hr{
+	border-top: 3px solid skyblue;
+	border-radius: 5px;
+}
+
+body{
+	background:url("bg img.jpg");
+	font-size: 12px;
+}
+body,input{
+	
+}
+.background{
+	display: flex;
+	min-height: 100vh;
+}
+.container{
+	margin: auto;
+	background-color: #3e3e3e;
+	border-radius: 15px;
+	padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+
+}
+.content{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size:20px;
+	font-family: "Times New Roman",Times, sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.4;
+}
+h1{
+	font-size:40px;
+	color: skyblue; 
+	font-family: "Times New Roman",Times, sans-serif;
+
+}
+@media screen and (max-width:450px){
+	h1{
+		font-size: 20px;
+	}
+	.content{
+		padding: 10px;
+		font-size-adjust: 10px;
+	}
+	.container{
+		margin:auto;
+		padding: 10px;
+
+	}
+
+
+
+}
