@@ -33,6 +33,9 @@ hr{
 	border-top: 3px solid skyblue;
 	border-radius: 5px;
 }
+h4{
+	color: skyblue;
+}
 
 body{
 	background:url("bg img.jpg");
@@ -43,16 +46,16 @@ body,input{
 }
 .background{
 	display: flex;
-	min-height: 100vh;
+	min-height: 60vh;
 }
 .container{
 	margin: auto;
 	background-color: #3e3e3e;
 	border-radius: 15px;
-	padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+	padding-top:30px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     text-align: center;
     box-shadow: 0 20px 40px rgba(0,0,0,0.8);
 
@@ -64,6 +67,7 @@ body,input{
 	font-family: "Times New Roman",Times, sans-serif;
 	font-weight: 700;
 	letter-spacing: 1.4;
+	color: skyblue;
 }
 h1{
 	font-size:40px;
