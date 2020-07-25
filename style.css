@@ -77,10 +77,3 @@ h1{
 	font-family: "Times New Roman",Times, sans-serif;
 
 }
-@media only screen and (max-width: 460px)
-{
-     .container{
-		margin 0;
-		padding: 0;
-	}
-}
